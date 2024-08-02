@@ -1,6 +1,5 @@
 from gilded_rose import Item, update_quality
-
-AGED_BRIE = "Aged Brie"
+from constants import AGED_BRIE
 
 
 def test_item_does_nt_change_name():

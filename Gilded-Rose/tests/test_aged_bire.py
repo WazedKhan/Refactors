@@ -1,6 +1,5 @@
 from gilded_rose import Item, update_quality
-
-AGED_BRIE = "Aged Brie"
+from constants import AGED_BRIE
 
 
 def test_aged_brie_increases_quality():

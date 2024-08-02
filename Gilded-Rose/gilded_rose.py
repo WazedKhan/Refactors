@@ -2,6 +2,7 @@ from typing import Iterable
 from item import Item
 
 
+
 def update_quality(items: Iterable[Item]):
     for item in items:
         if (

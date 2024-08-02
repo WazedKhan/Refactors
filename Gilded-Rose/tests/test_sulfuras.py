@@ -1,6 +1,5 @@
 from gilded_rose import Item, update_quality
-
-SULFURAS = "Sulfuras, Hand of Ragnaros"
+from constants import SULFURAS
 
 
 def test_sulfuras_sell_in_dose_not_decrease():

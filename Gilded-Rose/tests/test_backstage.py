@@ -1,6 +1,5 @@
 from gilded_rose import Item, update_quality
-
-BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
+from constants import BACKSTAGE_PASSES
 
 
 def test_backstage_passes_increase_quality():
